@@ -15,15 +15,12 @@ class _AddUserState extends State<AddUser> {
         title: const Text("Add Donors"),
         backgroundColor: Colors.red,
       ),
-      body: const Padding(
+      body: Padding(
         padding: EdgeInsets.all(15.0),
         child: Column(
           children: [
             TextField(
-              decoration: InputDecoration(
-                border: OutlineInputBorder(),
-                label: Text("Donor Name")
-              ),
+                decoration: InputDecoration(),   
             )
           ],
         ),
